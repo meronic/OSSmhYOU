@@ -60,7 +60,7 @@ namespace WindowsFinal_Project
             this.선굵기WToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(234, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -83,48 +83,49 @@ namespace WindowsFinal_Project
             // 동그라미ToolStripMenuItem
             // 
             this.동그라미ToolStripMenuItem.Name = "동그라미ToolStripMenuItem";
-            this.동그라미ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.동그라미ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.동그라미ToolStripMenuItem.Text = "동그라미";
+            this.동그라미ToolStripMenuItem.Click += new System.EventHandler(this.동그라미ToolStripMenuItem_Click);
             // 
             // 사각형ToolStripMenuItem
             // 
             this.사각형ToolStripMenuItem.Name = "사각형ToolStripMenuItem";
-            this.사각형ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.사각형ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.사각형ToolStripMenuItem.Text = "사각형";
             // 
             // 삼각형ToolStripMenuItem
             // 
             this.삼각형ToolStripMenuItem.Name = "삼각형ToolStripMenuItem";
-            this.삼각형ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.삼각형ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.삼각형ToolStripMenuItem.Text = "삼각형";
             // 
             // 직선ToolStripMenuItem
             // 
             this.직선ToolStripMenuItem.Name = "직선ToolStripMenuItem";
-            this.직선ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.직선ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.직선ToolStripMenuItem.Text = "직선";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(119, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(177, 6);
             // 
             // 별1ToolStripMenuItem
             // 
             this.별1ToolStripMenuItem.Name = "별1ToolStripMenuItem";
-            this.별1ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.별1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.별1ToolStripMenuItem.Text = "별1";
             // 
             // 별2ToolStripMenuItem
             // 
             this.별2ToolStripMenuItem.Name = "별2ToolStripMenuItem";
-            this.별2ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.별2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.별2ToolStripMenuItem.Text = "별2";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(119, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(177, 6);
             // 
             // 종료ToolStripMenuItem
             // 
@@ -200,11 +201,12 @@ namespace WindowsFinal_Project
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(234, 211);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "유명현 (20162908)";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
