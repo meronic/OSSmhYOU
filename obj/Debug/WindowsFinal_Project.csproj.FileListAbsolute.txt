@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\WindowsFinal_Project\bin\Debug\WindowsFinal_Project.exe.config
+C:\Users\user\source\repos\WindowsFinal_Project\bin\Debug\WindowsFinal_Project.exe
+C:\Users\user\source\repos\WindowsFinal_Project\bin\Debug\WindowsFinal_Project.pdb
+C:\Users\user\source\repos\WindowsFinal_Project\obj\Debug\WindowsFinal_Project.csprojAssemblyReference.cache
+C:\Users\user\source\repos\WindowsFinal_Project\obj\Debug\WindowsFinal_Project.Form1.resources
+C:\Users\user\source\repos\WindowsFinal_Project\obj\Debug\WindowsFinal_Project.Properties.Resources.resources
+C:\Users\user\source\repos\WindowsFinal_Project\obj\Debug\WindowsFinal_Project.csproj.GenerateResource.cache
+C:\Users\user\source\repos\WindowsFinal_Project\obj\Debug\WindowsFinal_Project.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\WindowsFinal_Project\obj\Debug\WindowsFinal_Project.exe
+C:\Users\user\source\repos\WindowsFinal_Project\obj\Debug\WindowsFinal_Project.pdb
