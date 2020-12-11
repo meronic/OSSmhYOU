@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using System.Windows.Forms;
 
 
@@ -18,10 +14,10 @@ namespace WindowsFinal_Project
 {
     public partial class Form1 : Form
     {
-        private int penSize = 3; // 선 굵기 변수
-        private Color selectColor = Color.Blue; // 색상 변수
+        private int penSize = 3; // 선 굵기 변수, 프로그램 시작 시 기본 값 3
+        private Color selectColor = Color.Blue; // 색상 변수, 프로그램 시작 시 기본 값 파란색
 
-        private int choice = 4;
+        private int choice = 3; // 모양 선택 변수, 프로그램 시작 시 기본 값 삼각형
 
         private int[] shape = { 1, 2, 3, 4, 5, 6 }; // 모양 선택 배열 
         // 1.동그라미, 2.사각형, 3. 삼각형, 4.직선, 5.별1, 6. 별2
@@ -34,36 +30,96 @@ namespace WindowsFinal_Project
         //////////////////// 도형버튼///////////////////////////////
         private void 동그라미ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // 동그라미 버튼만 클릭 된 상태
+            동그라미ToolStripMenuItem.Checked = true;
+
+            // 나머지 해제
+            사각형ToolStripMenuItem.Checked = false;
+            삼각형ToolStripMenuItem.Checked = false;
+            직선ToolStripMenuItem.Checked = false;
+            별1ToolStripMenuItem.Checked = false;
+            별2ToolStripMenuItem.Checked = false;
+
             choice = shape[0];
             Refresh(); // 새로고침
         }
 
         private void 사각형ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // 버튼만 클릭 된 상태
+            동그라미ToolStripMenuItem.Checked = true;
+
+            // 나머지 해제
+            사각형ToolStripMenuItem.Checked = false;
+            삼각형ToolStripMenuItem.Checked = false;
+            직선ToolStripMenuItem.Checked = false;
+            별1ToolStripMenuItem.Checked = false;
+            별2ToolStripMenuItem.Checked = false;
+
             choice = shape[1];
             Refresh();
         }
 
         private void 삼각형ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // 동그라미 버튼만 클릭 된 상태
+            동그라미ToolStripMenuItem.Checked = true;
+
+            // 나머지 해제
+            사각형ToolStripMenuItem.Checked = false;
+            삼각형ToolStripMenuItem.Checked = false;
+            직선ToolStripMenuItem.Checked = false;
+            별1ToolStripMenuItem.Checked = false;
+            별2ToolStripMenuItem.Checked = false;
+
             choice = shape[2];
             Refresh();
         }
 
         private void 직선ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // 동그라미 버튼만 클릭 된 상태
+            동그라미ToolStripMenuItem.Checked = true;
+
+            // 나머지 해제
+            사각형ToolStripMenuItem.Checked = false;
+            삼각형ToolStripMenuItem.Checked = false;
+            직선ToolStripMenuItem.Checked = false;
+            별1ToolStripMenuItem.Checked = false;
+            별2ToolStripMenuItem.Checked = false;
+
             choice = shape[3];
             Refresh();
         }
 
         private void 별1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // 동그라미 버튼만 클릭 된 상태
+            동그라미ToolStripMenuItem.Checked = true;
+
+            // 나머지 해제
+            사각형ToolStripMenuItem.Checked = false;
+            삼각형ToolStripMenuItem.Checked = false;
+            직선ToolStripMenuItem.Checked = false;
+            별1ToolStripMenuItem.Checked = false;
+            별2ToolStripMenuItem.Checked = false;
+
             choice = shape[4];
             Refresh();
         }
 
         private void 별2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // 동그라미 버튼만 클릭 된 상태
+            동그라미ToolStripMenuItem.Checked = true;
+
+            // 나머지 해제
+            사각형ToolStripMenuItem.Checked = false;
+            삼각형ToolStripMenuItem.Checked = false;
+            직선ToolStripMenuItem.Checked = false;
+            별1ToolStripMenuItem.Checked = false;
+            별2ToolStripMenuItem.Checked = false;
+
             choice = shape[5];
             Refresh();
         }
@@ -200,6 +256,6 @@ namespace WindowsFinal_Project
             }
         }
 
-       
+     
     }
 }

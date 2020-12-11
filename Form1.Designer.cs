@@ -153,28 +153,28 @@ namespace WindowsFinal_Project
             // 빨간색ToolStripMenuItem
             // 
             this.빨간색ToolStripMenuItem.Name = "빨간색ToolStripMenuItem";
-            this.빨간색ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.빨간색ToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.빨간색ToolStripMenuItem.Text = "빨간색";
             this.빨간색ToolStripMenuItem.Click += new System.EventHandler(this.빨간색ToolStripMenuItem_Click);
             // 
             // 노란색ToolStripMenuItem
             // 
             this.노란색ToolStripMenuItem.Name = "노란색ToolStripMenuItem";
-            this.노란색ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.노란색ToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.노란색ToolStripMenuItem.Text = "노란색";
             this.노란색ToolStripMenuItem.Click += new System.EventHandler(this.노란색ToolStripMenuItem_Click);
             // 
             // 초록색ToolStripMenuItem
             // 
             this.초록색ToolStripMenuItem.Name = "초록색ToolStripMenuItem";
-            this.초록색ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.초록색ToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.초록색ToolStripMenuItem.Text = "초록색";
             this.초록색ToolStripMenuItem.Click += new System.EventHandler(this.초록색ToolStripMenuItem_Click);
             // 
             // 파란색ToolStripMenuItem
             // 
             this.파란색ToolStripMenuItem.Name = "파란색ToolStripMenuItem";
-            this.파란색ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.파란색ToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.파란색ToolStripMenuItem.Text = "파란색";
             this.파란색ToolStripMenuItem.Click += new System.EventHandler(this.파란색ToolStripMenuItem_Click);
             // 
@@ -191,21 +191,21 @@ namespace WindowsFinal_Project
             // 굵게ToolStripMenuItem
             // 
             this.굵게ToolStripMenuItem.Name = "굵게ToolStripMenuItem";
-            this.굵게ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.굵게ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.굵게ToolStripMenuItem.Text = "굵게 (width=5)";
             this.굵게ToolStripMenuItem.Click += new System.EventHandler(this.굵게ToolStripMenuItem_Click);
             // 
             // 중간ToolStripMenuItem
             // 
             this.중간ToolStripMenuItem.Name = "중간ToolStripMenuItem";
-            this.중간ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.중간ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.중간ToolStripMenuItem.Text = "중간 (width=3)";
             this.중간ToolStripMenuItem.Click += new System.EventHandler(this.중간ToolStripMenuItem_Click);
             // 
             // 얇게ToolStripMenuItem
             // 
             this.얇게ToolStripMenuItem.Name = "얇게ToolStripMenuItem";
-            this.얇게ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.얇게ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.얇게ToolStripMenuItem.Text = "얇게 (width=1)";
             this.얇게ToolStripMenuItem.Click += new System.EventHandler(this.얇게ToolStripMenuItem_Click);
             // 
